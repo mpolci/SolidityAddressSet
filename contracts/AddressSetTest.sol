@@ -4,7 +4,7 @@ contract AddressSetTest {
   using AddressSet for AddressSet.data;
   AddressSet.data data;
 
-  function insert(address value) returns (bool alreadyPresent) {
+  function insert(address value) returns (bool success) {
     return data.insert(value) == 2;
   }
 
