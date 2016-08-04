@@ -1,0 +1,4 @@
+node_modules/
+environments/development/contracts/
+environments/test/contracts/
+environments/*/build/
